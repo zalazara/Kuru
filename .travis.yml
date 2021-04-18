@@ -4,9 +4,12 @@ language: swift
 
 deploy:
   provider: releases
+  install: gem install cocoapods -v '~> 1.7.0'
   script: pod trunk push --verbose --allow-warnings | tee pod.log | ruby -e 'ARGF.each{ print "." }'
+  after_failure: cat pod.log | grep error
   on:
     tags: true
+
 branches:
   only:
     - master
@@ -26,17 +29,3 @@ jobs:
       cache: cocoapods
       install: gem install cocoapods -v '~> 1.7.0'
       script: pod lib lint Kuru.podspec --allow-warnings --fail-fast --swift-version=$SWIFT
-
-    - name: '`pod trunk push`'
-      stage: deploy
-      install: gem install cocoapods -v '~> 1.7.0'
-      before_script: |
-        sed -i '' "s/s.version = '0.0.1'/s.version = '$TRAVIS_TAG'/g" Kuru.podspec
-      script: |
-        set -exo pipefail
-        pod trunk push --verbose --allow-warnings | tee pod.log | ruby -e 'ARGF.each{ print "." }'
-      # ^^ pipe because Travis times us out if there is no output
-      # AND `pod` defaults to hardly any output
-      # BUT `--verbose` generates so much output that Travis kills our script due to *too much* output!
-      # --allow-warnings because Bolts generates warnings and CocoaPods fails you even if your deps emit warnings
-      after_failure: cat pod.log | grep error
