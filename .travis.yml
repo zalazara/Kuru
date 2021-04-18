@@ -17,11 +17,8 @@ branches:
 stages:
   - name: lint
     if: NOT branch =~ ^\d+\.\d+\.\d+$
-  - name: deploy
-    if: branch =~ ^\d+\.\d+\.\d+$
 jobs:
   include:
-
     - &pod
       stage: lint
       osx_image: xcode12.2
