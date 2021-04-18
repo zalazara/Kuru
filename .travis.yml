@@ -2,14 +2,6 @@ os: osx
 osx_image: xcode12.2
 language: swift
 
-deploy:
-  provider: releases
-  install: gem install cocoapods -v '~> 1.7.0'
-  script: pod trunk push --verbose --allow-warnings | tee pod.log | ruby -e 'ARGF.each{ print "." }'
-  after_failure: cat pod.log | grep error
-  on:
-    tags: true
-
 branches:
   only:
     - master
@@ -17,6 +9,8 @@ branches:
 stages:
   - name: lint
     if: NOT branch =~ ^\d+\.\d+\.\d+$
+  - name: deploy
+    if: branch =~ ^\d+\.\d+\.\d+$
 jobs:
   include:
     - &pod
@@ -26,3 +20,12 @@ jobs:
       cache: cocoapods
       install: gem install cocoapods -v '~> 1.7.0'
       script: pod lib lint Kuru.podspec --allow-warnings --fail-fast --swift-version=$SWIFT
+    
+    - name: '`pod trunk push`'
+      stage: deploy
+      install: gem install cocoapods -v '~> 1.7.0'
+      script: |
+        set -exo pipefail
+        pod lib lint Kuru.podspec --allow-warnings --fail-fast --swift-version=$SWIFT
+        pod trunk push --verbose --allow-warnings | tee pod.log | ruby -e 'ARGF.each{ print "." }'
+      after_failure: cat pod.log | grep error
