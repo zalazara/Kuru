@@ -26,6 +26,5 @@ jobs:
       install: gem install cocoapods -v '~> 1.7.0'
       script: |
         set -exo pipefail
-        pod lib lint Kuru.podspec --allow-warnings --fail-fast --swift-version=$SWIFT
         pod trunk push --verbose --allow-warnings | tee pod.log | ruby -e 'ARGF.each{ print "." }'
       after_failure: cat pod.log | grep error
