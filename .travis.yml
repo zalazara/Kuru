@@ -23,8 +23,8 @@ jobs:
     
     - name: '`pod trunk push`'
       stage: deploy
+      osx_image: xcode12.2
+      env: SWIFT=5.2
+      cache: cocoapods
       install: gem install cocoapods -v '~> 1.7.0'
-      script: |
-        set -exo pipefail
-        pod trunk push --verbose --allow-warnings | tee pod.log | ruby -e 'ARGF.each{ print "." }'
-      after_failure: cat pod.log | grep error
+      script: pod trunk push --verbose --allow-warnings
