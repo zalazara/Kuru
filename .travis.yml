@@ -2,6 +2,11 @@ os: osx
 osx_image: xcode12.2
 language: swift
 
+deploy:
+  provider: releases
+  script: pod trunk push --verbose --allow-warnings | tee pod.log | ruby -e 'ARGF.each{ print "." }'
+  on:
+    tags: true
 branches:
   only:
     - master
