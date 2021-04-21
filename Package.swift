@@ -25,6 +25,7 @@ let package = Package(
             path: "Sources"),
         .testTarget(
             name: "KuruTests",
-            dependencies: ["Kuru"]),
+            dependencies: ["Kuru"],
+            path: "Tests"),
     ]
 )
