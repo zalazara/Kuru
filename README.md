@@ -5,7 +5,7 @@
 
 ![](Documentation/Assets/cover.png)
 
-Kuru is an iOS library to ease de road to the server data driven ui in SwiftUI.
+Kuru is the easy way to manipulating ui data from a server in SwiftUI.
 
 - [Requirements](#requirements)
 
