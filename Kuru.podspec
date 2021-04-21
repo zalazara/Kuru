@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Kuru'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Kuru is the easy way to manipulating ui data from a server in SwiftUI.'
   s.description      = <<-DESC
   Kuru is the easy way to manipulating ui data from a server in SwiftUI.
