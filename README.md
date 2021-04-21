@@ -47,7 +47,7 @@ Once you have your Swift package set up, adding Kuru as a dependency is as easy 
 
 ```
 dependencies: [
-    .package(url: "https://github.com/zalazara/Kuru.git", .upToNextMajor(from: "0.0.2"))
+    .package(url: "https://github.com/zalazara/Kuru.git", .upToNextMajor(from: "0.0.3"))
 ]
 ```
 
