@@ -1,11 +1,9 @@
-# Kuru
-
 ![CI Status](https://www.travis-ci.com/zalazara/Kuru.svg?token=BS4dhxky8jNvHQXewYJD&branch=master)
 [![Version](https://img.shields.io/cocoapods/v/Sujdu.svg?style=flat)](https://cocoapods.org/pods/Kuru)
 [![License](https://img.shields.io/cocoapods/l/Kuru.svg?style=flat)](https://cocoapods.org/pods/Kuru)
 [![Platform](https://img.shields.io/cocoapods/p/Kuru.svg?style=flat)](https://cocoapods.org/pods/Kuru)
 
-
+![](Documentation/Assets/cover.png)
 
 Kuru is an iOS library to ease de road to the server data driven ui in SwiftUI.
 
