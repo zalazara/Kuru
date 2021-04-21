@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'Kuru'
   s.version          = '0.0.2'
-  s.summary          = 'Kuru is an iOS library to ease de road to the server data driven ui in SwiftUI.'
+  s.summary          = 'Kuru is the easy way to manipulating ui data from a server in SwiftUI.'
   s.description      = <<-DESC
-  Kuru is an iOS library to ease de road to the server data driven ui in SwiftUI.
+  Kuru is the easy way to manipulating ui data from a server in SwiftUI.
                        DESC
   s.homepage         = 'https://github.com/zalazara/Kuru'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
