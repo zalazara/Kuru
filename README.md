@@ -7,15 +7,19 @@
 
 Kuru is the easy way to manipulating ui data from a server in SwiftUI.
 
+------
+
+Welcome to Kuru - a toolkit for building native, component-driven UIs on iOS. It is designed to enable teams of any size to quickly build, tweak and ship new UI features, in either new or existing apps. It also makes it easy to build backend-driven UIs.
+
+
+
+## Documentation
+
 - [Requirements](#requirements)
 
 - [Installation](#installation)
 
-- [Usage](#usage)
-  - [Json Format](#json-format)
-  
-  - [Register component](#register-component)
-  - [Using functions](#using-functions)
+- [Getting started](#getting-started)
 
 
 
@@ -34,7 +38,7 @@ Kuru is the easy way to manipulating ui data from a server in SwiftUI.
 Kuru is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Kuru'
+pod 'Kuru', '~> 0.0.3'
 ```
 
 
@@ -53,291 +57,34 @@ dependencies: [
 
 
 
-## Usage
+## Getting started
+
+There are also a series of **programming guides** that each introduce you to different aspects of the framework.
+
+- [Component programming guide](https://github.com/zalazara/Kuru/Documentation/Component.md)
+- [Json programming guide](https://github.com/zalazara/Kuru/Documentation/JSON.md)
+- [Function programming guide](https://github.com/zalazara/Kuru/Documentation/Function.md)
 
 
 
-### Json Format
-
-Kuru library works with the following json contract:
-
-
-
-```json
-{
-  "type" : "your-register-component-type",
-  "args" : {
-    // Component properties like this
-    "text"	: "Hello!"
-  },
-  "childrens" : [
-    // Pass components to render inside
-     {
-       	"type" : "your-register-component-type",
-  			"args" : {
-          // Component properties like this
-          "text"	: "I'm inside!"
-        }
-     }
-  ]
-}
-```
-
-
-
-### Register component
-
-Registering a component is really easy. All we need a class that implements  JsonComponentProtocol interface.
-
-
-
-***JsonViewComponentExample.swift***
+### Basic implementation
 
 ```swift
 import SwiftUI
 import Kuru
 
-struct JsonViewComponentExample: JsonComponentProtocol {
-  
-    var backgroundColor: Color? // Color+Codable extension is available in Kuru library 
-    
-    func render(withChildrens: [AnyView]) -> AnyView {
-        var body: some View {
-            getView(childrens: withChildrens)
-        }
-        
-        return body
-            .background(backgroundColor)
-            .toAnyView()
-    }
-    
-    
-    
-    func getView(childrens:  [AnyView]) -> AnyView {
-        
-        // Render childrens components inside
-        let content =
-            ForEach(0..<childrens.count) { index in
-                childrens[index]
-            }
-        
-        
-        if let background = backgroundColor {
-            return AnyView(ZStack(content: {
-                background.edgesIgnoringSafeArea(.all)
-                VStack(content: {
-                    content
-                })
-            }))
-        }
-        
-        return content.toAnyView() // View+ToAnyView extension is available in Kuru library
-    }
-    
-    
-}
-```
-
-
-
-***JsonTextComponentExample.swift***
-
-```swift
-import SwiftUI
-import Kuru
-
-struct JsonTextComponentExample: JsonComponentProtocol {
-   
-  	var text: String
-    var backgroundColor: Color? // Color+Codable extension is available in Kuru library 
-    
-    func render(withChildrens: [AnyView]) -> AnyView {
-        return generateTextWithProperties()
-                .toAnyView() // View+ToAnyView extension is available in Kuru library
-    }
-    
-    private func generateTextWithProperties() -> some View {
-        return Text(self.text)
-            .background(backgroundColor)
-    }
-}
-```
-
-
-
-***MyDemoApplication.swift***
-
-```swift
-import SwiftUI
-import Kuru
-
-@main
-struct MyDemoApplication: App {
-    
-    init() {        
-      	// Register component JsonViewComponentExample for type "view" in json data. 
-        Kuru.registerComponent(JsonViewComponentExample.self, for: "view")
-      
-      	// Or register multiple components at the same time
-      	//Kuru.registerComponents(["view" : JsonViewComponentExample.self ])
-    }
-    
-    var body: some Scene {
-        WindowGroup {
-            MyFirstKuruView()
-        }
-    }
-}
-```
-
-
-
-### Render
-
-***MyFirstKuruView.swift***
-
-```swift
-import SwiftUI
-import Kuru
-
-struct MyFirstKuruView: View {
-    @State var viewData = Data() // Load json here
-    
+struct ContentView: View {
     var body: some View {
-    	Kuru.render(fromData: viewData);
+         Kuru.render(fromData: jsonData)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MyFirstKuruView()
+        ContentView()
     }
 }
 ```
-
-
-
-***server.Json***
-
-```json
-{
-  "type"	:	"view",
-  "args"	:	{
-    /// Properties for component
-  },
-  "children": [
-    ...
-    {
-    	"type" : "text",
-      "args" : {
-        "text" : "Hello world!",
-        "backgroundColor" : "#f00" //Background color is 8 hexadecimal format (hex with alpha)
-      }
-  	}
-    ...
-  ]
-}
-```
-
-
-
-## Usings functions
-
-Kuru library supports registering dynamic functions that can be called from json.
-
-
-
-## Json contract for function
-
-
-
-```json
-"action"          :   {
-  "name"        :   "your-function-name",
-  "parameters"  :   {
-    "name"        :   "Alejandro",
-    "years"				: 	30
-  }
-}
-```
-
-
-
-
-
-### Register function
-
-This is an example for register a function 
-
-
-
-***MyDemoApplication.swift***
-
-```swift
-import SwiftUI
-import Kuru
-
-@main
-struct MyDemoApplication: App {
-    
-    init() {        
-      	Kuru.registerFunction(name: "sayHello", completion: { params in
-            // Params are [String : Any]
-            print("Hello \(params?["name"] ?? "" )")
-        })
-    }
-    
-    var body: some Scene {
-        WindowGroup {
-            MyFirstKuruView()
-        }
-    }
-}
-```
-
-
-
-### Add support for function in my component
-
-
-
-***JsonButtonExampleComponent.swift***
-
-```swift
-import SwiftUI
-import Kuru
-
-struct JsonButtonExampleComponent: JsonComponentProtocol {
-  
-    var text: String
-    var action: KFunctionDecoder //KFunctionDecoder is a json function decoder
-    
-    func render(withChildrens: [AnyView]) -> AnyView {
-        Button(text, action: { action() }).toAnyView()
-    }
-}
-```
-
-
-
-### Send function in my server json
-
-```json
-{
-  "type" : "button",
-  "args" : {
-    "text"            :  "Press here",
-    "action"          :   {
-      "name"        :   "sayHello",
-      "parameters"  :   {
-        "name"        :   "Alejandro"
-      }
-    }
-  }
-}
-```
-
-
 
 
 
