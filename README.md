@@ -61,9 +61,9 @@ dependencies: [
 
 There are also a series of **programming guides** that each introduce you to different aspects of the framework.
 
-- [Component programming guide](https://github.com/zalazara/Kuru/Documentation/Component.md)
-- [Json programming guide](https://github.com/zalazara/Kuru/Documentation/JSON.md)
-- [Function programming guide](https://github.com/zalazara/Kuru/Documentation/Function.md)
+- [Component programming guide](https://github.com/zalazara/Kuru/blob/master/Documentation/Component.md)
+- [Json programming guide](https://github.com/zalazara/Kuru/blob/master/Documentation/JSON.md)
+- [Function programming guide](https://github.com/zalazara/Kuru/blob/master/Documentation/Function.md)
 
 
 
