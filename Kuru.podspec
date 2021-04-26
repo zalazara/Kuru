@@ -12,4 +12,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.source_files = 'Sources/**/*.swift'
   s.swift_version = '5.2'
+
+  s.test_spec 'Tests' do |test_spec|
+    test_spec.source_files = 'Tests/KuruTests/**/*.swift'
+    test_spec.dependency 'Quick' , '~> 3.1'
+    test_spec.dependency 'Nimble' , '~> 9.0'
+    test_spec.ios.deployment_target = '13.0'
+  end
 end

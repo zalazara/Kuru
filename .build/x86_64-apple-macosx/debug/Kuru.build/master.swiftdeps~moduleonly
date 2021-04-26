@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "cda13731d0a98e4e815525b4c3e6364b"
+build_time: [1619451406, 775965000]
+inputs:
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/Kuru.swift": !dirty [1618769592, 203966679]
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/decoder/KComponentDecoder.swift": !dirty [1618769592, 204540975]
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/entities/KFunctions.swift": [1618490389, 927442734]
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/Color+Codable.swift": !dirty [1618495379, 909400976]
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/KeyedDecodingContainer+StringAny.swift": [1618187610, 898633074]
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/String+HexColor.swift": !dirty [1618229643, 786780345]
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/View+ToAnyView.swift": !dirty [1618490337, 672539474]
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/protocols/KComponentProtocol.swift": !dirty [1618769592, 205020833]

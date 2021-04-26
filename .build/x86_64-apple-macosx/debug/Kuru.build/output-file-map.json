@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/master.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/Kuru.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/Kuru.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/Kuru.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/Kuru~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/Kuru.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/decoder/KComponentDecoder.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/decoder/KComponentDecoder.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/decoder/KComponentDecoder.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/decoder/KComponentDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/decoder/KComponentDecoder.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/entities/KFunctions.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/entities/KFunctions.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/entities/KFunctions.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/entities/KFunctions~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/entities/KFunctions.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/Color+Codable.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/Color+Codable.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/Color+Codable.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/Color+Codable~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/Color+Codable.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/KeyedDecodingContainer+StringAny.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/KeyedDecodingContainer+StringAny.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/KeyedDecodingContainer+StringAny.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/KeyedDecodingContainer+StringAny~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/KeyedDecodingContainer+StringAny.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/String+HexColor.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/String+HexColor.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/String+HexColor.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/String+HexColor~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/String+HexColor.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/extensions/View+ToAnyView.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/View+ToAnyView.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/View+ToAnyView.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/View+ToAnyView~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/extensions/View+ToAnyView.swiftdeps"
+  },
+  "/Users/azalazar/personal/Kuru/Sources/Kuru/protocols/KComponentProtocol.swift": {
+    "dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/protocols/KComponentProtocol.d",
+    "object": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/protocols/KComponentProtocol.swift.o",
+    "swiftmodule": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/protocols/KComponentProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/protocols/KComponentProtocol.swiftdeps"
+  }
+}

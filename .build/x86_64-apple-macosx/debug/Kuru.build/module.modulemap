@@ -1,0 +1,4 @@
+module Kuru {
+    header "/Users/azalazar/personal/Kuru/.build/x86_64-apple-macosx/debug/Kuru.build/Kuru-Swift.h"
+    requires objc
+}
