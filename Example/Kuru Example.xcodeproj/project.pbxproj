@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5C57B2280DA61F00EFABB1 /* first_view.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C57B1280DA61F00EFABB1 /* first_view.json */; };
+		1C5C57B8280DA7E900EFABB1 /* JsonViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57B7280DA7E900EFABB1 /* JsonViewComponent.swift */; };
+		1C5C57BA280DA81E00EFABB1 /* JsonTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57B9280DA81E00EFABB1 /* JsonTextComponent.swift */; };
+		1C5C57BD280DA8B300EFABB1 /* KAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57BC280DA8B300EFABB1 /* KAlignment.swift */; };
+		1C5C57BF280DA8D300EFABB1 /* KTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57BE280DA8D300EFABB1 /* KTextStyle.swift */; };
+		1C5C57C1280DA8FA00EFABB1 /* KTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57C0280DA8FA00EFABB1 /* KTextAlignment.swift */; };
+		1C5C57C6280DAA5200EFABB1 /* JsonButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57C5280DAA5200EFABB1 /* JsonButtonComponent.swift */; };
+		1C5C57E7280DB1AF00EFABB1 /* Kuru in Frameworks */ = {isa = PBXBuildFile; productRef = 1C5C57E6280DB1AF00EFABB1 /* Kuru */; };
+		1CDF288C280DA5C700AADAFE /* Kuru_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF288B280DA5C700AADAFE /* Kuru_ExampleApp.swift */; };
+		1CDF288E280DA5C700AADAFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF288D280DA5C700AADAFE /* ContentView.swift */; };
+		1CDF2890280DA5C800AADAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDF288F280DA5C800AADAFE /* Assets.xcassets */; };
+		1CDF2893280DA5C800AADAFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDF2892280DA5C800AADAFE /* Preview Assets.xcassets */; };
+		1CDF289D280DA5C800AADAFE /* Kuru_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF289C280DA5C800AADAFE /* Kuru_ExampleTests.swift */; };
+		1CDF28A7280DA5C800AADAFE /* Kuru_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF28A6280DA5C800AADAFE /* Kuru_ExampleUITests.swift */; };
+		1CDF28A9280DA5C800AADAFE /* Kuru_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF28A8280DA5C800AADAFE /* Kuru_ExampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CDF2899280DA5C800AADAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDF2880280DA5C700AADAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CDF2887280DA5C700AADAFE;
+			remoteInfo = "Kuru Example";
+		};
+		1CDF28A3280DA5C800AADAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CDF2880280DA5C700AADAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CDF2887280DA5C700AADAFE;
+			remoteInfo = "Kuru Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C5C57B1280DA61F00EFABB1 /* first_view.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = first_view.json; sourceTree = "<group>"; };
+		1C5C57B7280DA7E900EFABB1 /* JsonViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonViewComponent.swift; sourceTree = "<group>"; };
+		1C5C57B9280DA81E00EFABB1 /* JsonTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTextComponent.swift; sourceTree = "<group>"; };
+		1C5C57BC280DA8B300EFABB1 /* KAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAlignment.swift; sourceTree = "<group>"; };
+		1C5C57BE280DA8D300EFABB1 /* KTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTextStyle.swift; sourceTree = "<group>"; };
+		1C5C57C0280DA8FA00EFABB1 /* KTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTextAlignment.swift; sourceTree = "<group>"; };
+		1C5C57C5280DAA5200EFABB1 /* JsonButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonButtonComponent.swift; sourceTree = "<group>"; };
+		1CDF2888280DA5C700AADAFE /* Kuru Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kuru Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDF288B280DA5C700AADAFE /* Kuru_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuru_ExampleApp.swift; sourceTree = "<group>"; };
+		1CDF288D280DA5C700AADAFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CDF288F280DA5C800AADAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CDF2892280DA5C800AADAFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CDF2898280DA5C800AADAFE /* Kuru ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kuru ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDF289C280DA5C800AADAFE /* Kuru_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuru_ExampleTests.swift; sourceTree = "<group>"; };
+		1CDF28A2280DA5C800AADAFE /* Kuru ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kuru ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDF28A6280DA5C800AADAFE /* Kuru_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuru_ExampleUITests.swift; sourceTree = "<group>"; };
+		1CDF28A8280DA5C800AADAFE /* Kuru_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuru_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CDF2885280DA5C700AADAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5C57E7280DB1AF00EFABB1 /* Kuru in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDF2895280DA5C800AADAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDF289F280DA5C800AADAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C5C57B6280DA7BD00EFABB1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C57B7280DA7E900EFABB1 /* JsonViewComponent.swift */,
+				1C5C57B9280DA81E00EFABB1 /* JsonTextComponent.swift */,
+				1C5C57C5280DAA5200EFABB1 /* JsonButtonComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1C5C57BB280DA89500EFABB1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C57BC280DA8B300EFABB1 /* KAlignment.swift */,
+				1C5C57BE280DA8D300EFABB1 /* KTextStyle.swift */,
+				1C5C57C0280DA8FA00EFABB1 /* KTextAlignment.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1CDF287F280DA5C700AADAFE = {
+			isa = PBXGroup;
+			children = (
+				1CDF288A280DA5C700AADAFE /* Kuru Example */,
+				1CDF289B280DA5C800AADAFE /* Kuru ExampleTests */,
+				1CDF28A5280DA5C800AADAFE /* Kuru ExampleUITests */,
+				1CDF2889280DA5C700AADAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CDF2889280DA5C700AADAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CDF2888280DA5C700AADAFE /* Kuru Example.app */,
+				1CDF2898280DA5C800AADAFE /* Kuru ExampleTests.xctest */,
+				1CDF28A2280DA5C800AADAFE /* Kuru ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CDF288A280DA5C700AADAFE /* Kuru Example */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C57BB280DA89500EFABB1 /* Enums */,
+				1C5C57B6280DA7BD00EFABB1 /* Components */,
+				1C5C57B1280DA61F00EFABB1 /* first_view.json */,
+				1CDF288B280DA5C700AADAFE /* Kuru_ExampleApp.swift */,
+				1CDF288D280DA5C700AADAFE /* ContentView.swift */,
+				1CDF288F280DA5C800AADAFE /* Assets.xcassets */,
+				1CDF2891280DA5C800AADAFE /* Preview Content */,
+			);
+			path = "Kuru Example";
+			sourceTree = "<group>";
+		};
+		1CDF2891280DA5C800AADAFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CDF2892280DA5C800AADAFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CDF289B280DA5C800AADAFE /* Kuru ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CDF289C280DA5C800AADAFE /* Kuru_ExampleTests.swift */,
+			);
+			path = "Kuru ExampleTests";
+			sourceTree = "<group>";
+		};
+		1CDF28A5280DA5C800AADAFE /* Kuru ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CDF28A6280DA5C800AADAFE /* Kuru_ExampleUITests.swift */,
+				1CDF28A8280DA5C800AADAFE /* Kuru_ExampleUITestsLaunchTests.swift */,
+			);
+			path = "Kuru ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CDF2887280DA5C700AADAFE /* Kuru Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDF28AC280DA5C800AADAFE /* Build configuration list for PBXNativeTarget "Kuru Example" */;
+			buildPhases = (
+				1CDF2884280DA5C700AADAFE /* Sources */,
+				1CDF2885280DA5C700AADAFE /* Frameworks */,
+				1CDF2886280DA5C700AADAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kuru Example";
+			packageProductDependencies = (
+				1C5C57E6280DB1AF00EFABB1 /* Kuru */,
+			);
+			productName = "Kuru Example";
+			productReference = 1CDF2888280DA5C700AADAFE /* Kuru Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CDF2897280DA5C800AADAFE /* Kuru ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDF28AF280DA5C800AADAFE /* Build configuration list for PBXNativeTarget "Kuru ExampleTests" */;
+			buildPhases = (
+				1CDF2894280DA5C800AADAFE /* Sources */,
+				1CDF2895280DA5C800AADAFE /* Frameworks */,
+				1CDF2896280DA5C800AADAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CDF289A280DA5C800AADAFE /* PBXTargetDependency */,
+			);
+			name = "Kuru ExampleTests";
+			productName = "Kuru ExampleTests";
+			productReference = 1CDF2898280DA5C800AADAFE /* Kuru ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CDF28A1280DA5C800AADAFE /* Kuru ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDF28B2280DA5C800AADAFE /* Build configuration list for PBXNativeTarget "Kuru ExampleUITests" */;
+			buildPhases = (
+				1CDF289E280DA5C800AADAFE /* Sources */,
+				1CDF289F280DA5C800AADAFE /* Frameworks */,
+				1CDF28A0280DA5C800AADAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CDF28A4280DA5C800AADAFE /* PBXTargetDependency */,
+			);
+			name = "Kuru ExampleUITests";
+			productName = "Kuru ExampleUITests";
+			productReference = 1CDF28A2280DA5C800AADAFE /* Kuru ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CDF2880280DA5C700AADAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1CDF2887280DA5C700AADAFE = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					1CDF2897280DA5C800AADAFE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1CDF2887280DA5C700AADAFE;
+					};
+					1CDF28A1280DA5C800AADAFE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1CDF2887280DA5C700AADAFE;
+					};
+				};
+			};
+			buildConfigurationList = 1CDF2883280DA5C700AADAFE /* Build configuration list for PBXProject "Kuru Example" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CDF287F280DA5C700AADAFE;
+			packageReferences = (
+				1C5C57E5280DB1AF00EFABB1 /* XCRemoteSwiftPackageReference "Kuru" */,
+			);
+			productRefGroup = 1CDF2889280DA5C700AADAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CDF2887280DA5C700AADAFE /* Kuru Example */,
+				1CDF2897280DA5C800AADAFE /* Kuru ExampleTests */,
+				1CDF28A1280DA5C800AADAFE /* Kuru ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CDF2886280DA5C700AADAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDF2893280DA5C800AADAFE /* Preview Assets.xcassets in Resources */,
+				1CDF2890280DA5C800AADAFE /* Assets.xcassets in Resources */,
+				1C5C57B2280DA61F00EFABB1 /* first_view.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDF2896280DA5C800AADAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDF28A0280DA5C800AADAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDF2884280DA5C700AADAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5C57BF280DA8D300EFABB1 /* KTextStyle.swift in Sources */,
+				1C5C57C6280DAA5200EFABB1 /* JsonButtonComponent.swift in Sources */,
+				1C5C57BA280DA81E00EFABB1 /* JsonTextComponent.swift in Sources */,
+				1CDF288E280DA5C700AADAFE /* ContentView.swift in Sources */,
+				1C5C57B8280DA7E900EFABB1 /* JsonViewComponent.swift in Sources */,
+				1C5C57BD280DA8B300EFABB1 /* KAlignment.swift in Sources */,
+				1C5C57C1280DA8FA00EFABB1 /* KTextAlignment.swift in Sources */,
+				1CDF288C280DA5C700AADAFE /* Kuru_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDF2894280DA5C800AADAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDF289D280DA5C800AADAFE /* Kuru_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CDF289E280DA5C800AADAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDF28A9280DA5C800AADAFE /* Kuru_ExampleUITestsLaunchTests.swift in Sources */,
+				1CDF28A7280DA5C800AADAFE /* Kuru_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CDF289A280DA5C800AADAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CDF2887280DA5C700AADAFE /* Kuru Example */;
+			targetProxy = 1CDF2899280DA5C800AADAFE /* PBXContainerItemProxy */;
+		};
+		1CDF28A4280DA5C800AADAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CDF2887280DA5C700AADAFE /* Kuru Example */;
+			targetProxy = 1CDF28A3280DA5C800AADAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CDF28AA280DA5C800AADAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CDF28AB280DA5C800AADAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CDF28AD280DA5C800AADAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kuru Example/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azalazar.Kuru-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CDF28AE280DA5C800AADAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kuru Example/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azalazar.Kuru-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CDF28B0280DA5C800AADAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azalazar.Kuru-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kuru Example.app/Kuru Example";
+			};
+			name = Debug;
+		};
+		1CDF28B1280DA5C800AADAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azalazar.Kuru-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kuru Example.app/Kuru Example";
+			};
+			name = Release;
+		};
+		1CDF28B3280DA5C800AADAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azalazar.Kuru-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kuru Example";
+			};
+			name = Debug;
+		};
+		1CDF28B4280DA5C800AADAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azalazar.Kuru-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kuru Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDF2883280DA5C700AADAFE /* Build configuration list for PBXProject "Kuru Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDF28AA280DA5C800AADAFE /* Debug */,
+				1CDF28AB280DA5C800AADAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDF28AC280DA5C800AADAFE /* Build configuration list for PBXNativeTarget "Kuru Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDF28AD280DA5C800AADAFE /* Debug */,
+				1CDF28AE280DA5C800AADAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDF28AF280DA5C800AADAFE /* Build configuration list for PBXNativeTarget "Kuru ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDF28B0280DA5C800AADAFE /* Debug */,
+				1CDF28B1280DA5C800AADAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDF28B2280DA5C800AADAFE /* Build configuration list for PBXNativeTarget "Kuru ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDF28B3280DA5C800AADAFE /* Debug */,
+				1CDF28B4280DA5C800AADAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C5C57E5280DB1AF00EFABB1 /* XCRemoteSwiftPackageReference "Kuru" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zalazara/Kuru.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C5C57E6280DB1AF00EFABB1 /* Kuru */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C5C57E5280DB1AF00EFABB1 /* XCRemoteSwiftPackageReference "Kuru" */;
+			productName = Kuru;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1CDF2880280DA5C700AADAFE /* Project object */;
+}

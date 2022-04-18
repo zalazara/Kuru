@@ -1,0 +1,41 @@
+{
+  "type": "view",
+  "args" : {
+      "width"           : 300,
+      "backgroundColor"      : "#f00"
+  },
+  "childrens": [
+      {
+          "type" : "text",
+          "args" : {
+              "text"            :  "One children",
+              "backgroundColor" : "#1f6015",
+              "textColor"       : "#601515",
+              "textStyle"       : "italic",
+              "aligment"        : "left",
+              "textAlignment"   : "leading"
+          }
+      },
+      {
+          "type" : "text",
+          "args" : {
+              "text"            :  "Two children",
+              "textStyle"       : "bold",
+              "aligment"        : "left",
+              "textAlignment"   : "leading"
+          }
+      },
+      {
+          "type" : "button",
+          "args" : {
+              "text"            :  "Press here",
+              "action"          :   {
+                  "name"        :   "sayHello",
+                  "parameters"  :   {
+                      "name"        :   "Alejandro"
+                  }
+              }
+          }
+      }
+  ]
+}
