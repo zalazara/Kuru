@@ -33,6 +33,14 @@ struct JsonButtonComponent: KComponentProtocol {
     
     
     func executeAction() {
-        action?.callAsFunction()
+        
+    
+    
+    func executeAction() {
+        guard let action = action else {
+            return
+        }
+        
+        action()
     }
 }
