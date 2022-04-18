@@ -1,7 +1,3 @@
-![CI Status](https://www.travis-ci.com/zalazara/Kuru.svg?token=BS4dhxky8jNvHQXewYJD&branch=master)
-[![Version](https://img.shields.io/cocoapods/v/Sujdu.svg?style=flat)](https://cocoapods.org/pods/Kuru)
-[![License](https://img.shields.io/cocoapods/l/Kuru.svg?style=flat)](https://cocoapods.org/pods/Kuru)
-[![Platform](https://img.shields.io/cocoapods/p/Kuru.svg?style=flat)](https://cocoapods.org/pods/Kuru)
 
 ![](Documentation/Assets/cover.png)
 
@@ -17,6 +13,8 @@ Welcome to Kuru - a toolkit for building native, component-driven UIs on iOS. It
 
 - [Requirements](#requirements)
 
+- [Example](#example)
+
 - [Installation](#installation)
 
 - [Getting started](#getting-started)
@@ -29,6 +27,8 @@ Welcome to Kuru - a toolkit for building native, component-driven UIs on iOS. It
 - Xcode 11+
 - Swift 5.1+
 
+## Example
+To run the example project, clone the repo, and open `Kuru Example.xcodeproj` from the Example directory first.
 
 
 ## Installation
