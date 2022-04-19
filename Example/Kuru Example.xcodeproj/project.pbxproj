@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C402AEA280EE14900817011 /* NavigationViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C402AE9280EE14900817011 /* NavigationViewComponent.swift */; };
 		1C5C57B2280DA61F00EFABB1 /* first_view.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C57B1280DA61F00EFABB1 /* first_view.json */; };
-		1C5C57B8280DA7E900EFABB1 /* JsonViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57B7280DA7E900EFABB1 /* JsonViewComponent.swift */; };
-		1C5C57BA280DA81E00EFABB1 /* JsonTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57B9280DA81E00EFABB1 /* JsonTextComponent.swift */; };
 		1C5C57BD280DA8B300EFABB1 /* KAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57BC280DA8B300EFABB1 /* KAlignment.swift */; };
 		1C5C57BF280DA8D300EFABB1 /* KTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57BE280DA8D300EFABB1 /* KTextStyle.swift */; };
 		1C5C57C1280DA8FA00EFABB1 /* KTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57C0280DA8FA00EFABB1 /* KTextAlignment.swift */; };
-		1C5C57C6280DAA5200EFABB1 /* JsonButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C57C5280DAA5200EFABB1 /* JsonButtonComponent.swift */; };
 		1C5C57E7280DB1AF00EFABB1 /* Kuru in Frameworks */ = {isa = PBXBuildFile; productRef = 1C5C57E6280DB1AF00EFABB1 /* Kuru */; };
+		1C7F91E9280DE93900F6FD69 /* ScreenContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91E8280DE93900F6FD69 /* ScreenContainerComponent.swift */; };
+		1C7F91EB280DE9AE00F6FD69 /* KViewOrientationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91EA280DE9AE00F6FD69 /* KViewOrientationStyle.swift */; };
+		1C7F91ED280DEAB600F6FD69 /* AsyncImageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91EC280DEAB600F6FD69 /* AsyncImageViewComponent.swift */; };
+		1C7F91F1280DEE3100F6FD69 /* KMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91F0280DEE3100F6FD69 /* KMeasure.swift */; };
+		1C7F91F3280DEE5E00F6FD69 /* KMeasureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91F2280DEE5E00F6FD69 /* KMeasureType.swift */; };
+		1C7F91F5280DF35900F6FD69 /* TitleTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91F4280DF35900F6FD69 /* TitleTextComponent.swift */; };
+		1C7F91F7280DFB0900F6FD69 /* SubtitleTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91F6280DFB0900F6FD69 /* SubtitleTextComponent.swift */; };
+		1C7F91F9280E09D200F6FD69 /* CircleIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F91F8280E09D200F6FD69 /* CircleIconButton.swift */; };
+		1C7F91FB280E0F8300F6FD69 /* second_view.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C7F91FA280E0F8300F6FD69 /* second_view.json */; };
+		1CD93378280F2E470019D42B /* KNavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD93377280F2E470019D42B /* KNavigationManager.swift */; };
+		1CD9337A280F2E890019D42B /* KScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD93379280F2E890019D42B /* KScreen.swift */; };
 		1CDF288C280DA5C700AADAFE /* Kuru_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF288B280DA5C700AADAFE /* Kuru_ExampleApp.swift */; };
 		1CDF288E280DA5C700AADAFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDF288D280DA5C700AADAFE /* ContentView.swift */; };
 		1CDF2890280DA5C800AADAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDF288F280DA5C800AADAFE /* Assets.xcassets */; };
@@ -42,13 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C402AE9280EE14900817011 /* NavigationViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewComponent.swift; sourceTree = "<group>"; };
 		1C5C57B1280DA61F00EFABB1 /* first_view.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = first_view.json; sourceTree = "<group>"; };
-		1C5C57B7280DA7E900EFABB1 /* JsonViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonViewComponent.swift; sourceTree = "<group>"; };
-		1C5C57B9280DA81E00EFABB1 /* JsonTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTextComponent.swift; sourceTree = "<group>"; };
 		1C5C57BC280DA8B300EFABB1 /* KAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAlignment.swift; sourceTree = "<group>"; };
 		1C5C57BE280DA8D300EFABB1 /* KTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTextStyle.swift; sourceTree = "<group>"; };
 		1C5C57C0280DA8FA00EFABB1 /* KTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTextAlignment.swift; sourceTree = "<group>"; };
-		1C5C57C5280DAA5200EFABB1 /* JsonButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonButtonComponent.swift; sourceTree = "<group>"; };
+		1C7F91E8280DE93900F6FD69 /* ScreenContainerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenContainerComponent.swift; sourceTree = "<group>"; };
+		1C7F91EA280DE9AE00F6FD69 /* KViewOrientationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewOrientationStyle.swift; sourceTree = "<group>"; };
+		1C7F91EC280DEAB600F6FD69 /* AsyncImageViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageViewComponent.swift; sourceTree = "<group>"; };
+		1C7F91F0280DEE3100F6FD69 /* KMeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMeasure.swift; sourceTree = "<group>"; };
+		1C7F91F2280DEE5E00F6FD69 /* KMeasureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMeasureType.swift; sourceTree = "<group>"; };
+		1C7F91F4280DF35900F6FD69 /* TitleTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextComponent.swift; sourceTree = "<group>"; };
+		1C7F91F6280DFB0900F6FD69 /* SubtitleTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleTextComponent.swift; sourceTree = "<group>"; };
+		1C7F91F8280E09D200F6FD69 /* CircleIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleIconButton.swift; sourceTree = "<group>"; };
+		1C7F91FA280E0F8300F6FD69 /* second_view.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = second_view.json; sourceTree = "<group>"; };
+		1CD93377280F2E470019D42B /* KNavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNavigationManager.swift; sourceTree = "<group>"; };
+		1CD93379280F2E890019D42B /* KScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KScreen.swift; sourceTree = "<group>"; };
 		1CDF2888280DA5C700AADAFE /* Kuru Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kuru Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDF288B280DA5C700AADAFE /* Kuru_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuru_ExampleApp.swift; sourceTree = "<group>"; };
 		1CDF288D280DA5C700AADAFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,9 +108,12 @@
 		1C5C57B6280DA7BD00EFABB1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				1C5C57B7280DA7E900EFABB1 /* JsonViewComponent.swift */,
-				1C5C57B9280DA81E00EFABB1 /* JsonTextComponent.swift */,
-				1C5C57C5280DAA5200EFABB1 /* JsonButtonComponent.swift */,
+				1C7F91E8280DE93900F6FD69 /* ScreenContainerComponent.swift */,
+				1C7F91EC280DEAB600F6FD69 /* AsyncImageViewComponent.swift */,
+				1C7F91F4280DF35900F6FD69 /* TitleTextComponent.swift */,
+				1C7F91F6280DFB0900F6FD69 /* SubtitleTextComponent.swift */,
+				1C7F91F8280E09D200F6FD69 /* CircleIconButton.swift */,
+				1C402AE9280EE14900817011 /* NavigationViewComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -103,8 +124,29 @@
 				1C5C57BC280DA8B300EFABB1 /* KAlignment.swift */,
 				1C5C57BE280DA8D300EFABB1 /* KTextStyle.swift */,
 				1C5C57C0280DA8FA00EFABB1 /* KTextAlignment.swift */,
+				1C7F91EA280DE9AE00F6FD69 /* KViewOrientationStyle.swift */,
+				1C7F91F2280DEE5E00F6FD69 /* KMeasureType.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		1C7F91EE280DEDF800F6FD69 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F91EF280DEE1400F6FD69 /* Entities */,
+				1C5C57BB280DA89500EFABB1 /* Enums */,
+				1CD93377280F2E470019D42B /* KNavigationManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1C7F91EF280DEE1400F6FD69 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F91F0280DEE3100F6FD69 /* KMeasure.swift */,
+				1CD93379280F2E890019D42B /* KScreen.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		1CDF287F280DA5C700AADAFE = {
@@ -130,9 +172,10 @@
 		1CDF288A280DA5C700AADAFE /* Kuru Example */ = {
 			isa = PBXGroup;
 			children = (
-				1C5C57BB280DA89500EFABB1 /* Enums */,
+				1C7F91EE280DEDF800F6FD69 /* Utils */,
 				1C5C57B6280DA7BD00EFABB1 /* Components */,
 				1C5C57B1280DA61F00EFABB1 /* first_view.json */,
+				1C7F91FA280E0F8300F6FD69 /* second_view.json */,
 				1CDF288B280DA5C700AADAFE /* Kuru_ExampleApp.swift */,
 				1CDF288D280DA5C700AADAFE /* ContentView.swift */,
 				1CDF288F280DA5C800AADAFE /* Assets.xcassets */,
@@ -278,6 +321,7 @@
 			files = (
 				1CDF2893280DA5C800AADAFE /* Preview Assets.xcassets in Resources */,
 				1CDF2890280DA5C800AADAFE /* Assets.xcassets in Resources */,
+				1C7F91FB280E0F8300F6FD69 /* second_view.json in Resources */,
 				1C5C57B2280DA61F00EFABB1 /* first_view.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +347,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7F91F3280DEE5E00F6FD69 /* KMeasureType.swift in Sources */,
 				1C5C57BF280DA8D300EFABB1 /* KTextStyle.swift in Sources */,
-				1C5C57C6280DAA5200EFABB1 /* JsonButtonComponent.swift in Sources */,
-				1C5C57BA280DA81E00EFABB1 /* JsonTextComponent.swift in Sources */,
+				1C7F91F7280DFB0900F6FD69 /* SubtitleTextComponent.swift in Sources */,
+				1CD9337A280F2E890019D42B /* KScreen.swift in Sources */,
 				1CDF288E280DA5C700AADAFE /* ContentView.swift in Sources */,
-				1C5C57B8280DA7E900EFABB1 /* JsonViewComponent.swift in Sources */,
+				1C7F91F9280E09D200F6FD69 /* CircleIconButton.swift in Sources */,
+				1C7F91EB280DE9AE00F6FD69 /* KViewOrientationStyle.swift in Sources */,
+				1C7F91E9280DE93900F6FD69 /* ScreenContainerComponent.swift in Sources */,
+				1C402AEA280EE14900817011 /* NavigationViewComponent.swift in Sources */,
+				1C7F91F5280DF35900F6FD69 /* TitleTextComponent.swift in Sources */,
+				1C7F91F1280DEE3100F6FD69 /* KMeasure.swift in Sources */,
+				1C7F91ED280DEAB600F6FD69 /* AsyncImageViewComponent.swift in Sources */,
 				1C5C57BD280DA8B300EFABB1 /* KAlignment.swift in Sources */,
 				1C5C57C1280DA8FA00EFABB1 /* KTextAlignment.swift in Sources */,
 				1CDF288C280DA5C700AADAFE /* Kuru_ExampleApp.swift in Sources */,
+				1CD93378280F2E470019D42B /* KNavigationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +526,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -502,6 +555,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
