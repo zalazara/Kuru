@@ -9,29 +9,33 @@ import SwiftUI
 import Kuru
 
 struct ContentView: View {
-    @State var viewData = Data()
+    @StateObject var navigationManager = KNavigationManager.shared
+    var viewData: Data
+    var viewId: String
+    
+    init(viewId: String, data: Data) {
+        self.viewId = viewId
+        self.viewData = data
+    }
     
     var body: some View {
-        if viewData.isEmpty {
-            Button("Render View", action: {
-                if let path = Bundle.main.path(forResource: "first_view", ofType: "json") {
-                    do {
-                        viewData = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                        
-                    } catch {
-                        print(error.localizedDescription)
+        NavigationView {
+            
+            ZStack{
+                let content = ForEach(0..<KNavigationManager.shared.screens.count, id:\.self) { index in
+                    if let item = KNavigationManager.shared
+                        .screens[index], let data = item.getData(), let id = item.id , id != self.viewId {
+                        NavigationLink(destination: ContentView(viewId: id, data: data), tag: id, selection: $navigationManager.activeLink) { EmptyView()
+                        }
+                    } else {
+                        EmptyView()
                     }
                 }
-                
-            })
-        } else {
-            Kuru.render(fromData: viewData)
+                content
+                Kuru.render(fromData: viewData)
+            }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        .navigationBarHidden(navigationManager.activeScreen?.isNavigationBarHidden ?? false)
+        .navigationTitle(navigationManager.activeScreen?.title ?? "")
     }
 }

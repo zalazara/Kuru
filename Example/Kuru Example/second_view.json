@@ -1,0 +1,17 @@
+{
+  "type": "screenContainer",
+  "args" : {
+      "backgroundColor"  : "#000000",
+      "orientation"      : "vertical"
+  },
+  "childrens": [
+      {
+          "type"    : "titleText",
+          "args"    : {
+              "text"     : "Second view",
+              "textColor" : "#ffffff"
+          }
+      }
+  ]
+}
+

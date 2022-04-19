@@ -1,41 +1,46 @@
 {
-  "type": "view",
-  "args" : {
-      "width"           : 300,
-      "backgroundColor"      : "#f00"
-  },
-  "childrens": [
-      {
-          "type" : "text",
-          "args" : {
-              "text"            :  "One children",
-              "backgroundColor" : "#1f6015",
-              "textColor"       : "#601515",
-              "textStyle"       : "italic",
-              "aligment"        : "left",
-              "textAlignment"   : "leading"
-          }
-      },
-      {
-          "type" : "text",
-          "args" : {
-              "text"            :  "Two children",
-              "textStyle"       : "bold",
-              "aligment"        : "left",
-              "textAlignment"   : "leading"
-          }
-      },
-      {
-          "type" : "button",
-          "args" : {
-              "text"            :  "Press here",
-              "action"          :   {
-                  "name"        :   "sayHello",
-                  "parameters"  :   {
-                      "name"        :   "Alejandro"
-                  }
-              }
-          }
-      }
-  ]
+    "type": "screenContainer",
+    "args" : {
+        "backgroundColor"  : "#ffffff",
+        "orientation"      : "vertical",
+        "spacing"          : 50.0
+    },
+    "childrens": [
+        {
+            "type"    : "asyncImageView",
+            "args"    : {
+                "width"   : 300.00,
+                "height"  : 300.00,
+                "url"     : "https://ourimagehosting.com/images/2022/04/18/Screen-Shot-2022-04-18-at-16.54.47.png"
+            }
+        },
+        {
+            "type"    : "titleText",
+            "args"    : {
+                "text"     : "Fast Delivery",
+                "textColor" : "#000000"
+            }
+        },
+        {
+            "type"    : "subtitleText",
+            "args"    : {
+                "text"        : "Our carrier will collect up and bring your order inmediately",
+                "width"       : 320.00,
+                "textColor"   : "#828282"
+            }
+        },
+        {
+            "type"    : "circleIconButton",
+            "args"    : {
+                "backgroundColor" : "#000000",
+                "iconColor"       : "#ffffff",
+                "action"          :   {
+                    "name"        :   "navigateTo",
+                    "parameters"  :   {
+                        "id"        :   "second_view"
+                    }
+                }
+            }
+        }
+    ]
 }
