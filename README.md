@@ -86,7 +86,8 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
-
+## Contributing 
+You can contribute by fixing bugs or adding new features submitting Pull Requests.
 
 ## Author
 
