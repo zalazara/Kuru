@@ -1,0 +1,16 @@
+PODS:
+  - Kuru (0.0.3)
+
+DEPENDENCIES:
+  - Kuru (from `../`)
+
+EXTERNAL SOURCES:
+  Kuru:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kuru: 26ba71cf79c73d8311f64c4919a056878422dd17
+
+PODFILE CHECKSUM: 01a500900fa497891157bc8b70fbb3837ab7844a
+
+COCOAPODS: 1.11.3

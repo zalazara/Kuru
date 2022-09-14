@@ -1,0 +1,6 @@
+framework module Kuru {
+  umbrella header "Kuru-umbrella.h"
+
+  export *
+  module * { export * }
+}

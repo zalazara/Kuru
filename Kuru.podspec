@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/zalazara/Kuru.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
   s.source_files = 'Sources/**/*.swift'
-  s.swift_version = '5.2'
+  s.swift_version = '5.7'
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files = 'Tests/KuruTests/**/*.swift'
