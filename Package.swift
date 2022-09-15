@@ -24,5 +24,5 @@ let package = Package(
             name: "KuruTests",
             dependencies: ["Kuru"]),
     ],
-    swiftLanguageVersions: [.v5_7]
+    swiftLanguageVersions: [.v5]
 )
