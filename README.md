@@ -25,7 +25,7 @@ Welcome to Kuru - a toolkit for building native, component-driven UIs on iOS. It
 
 - iOS 13+
 - Xcode 11+
-- Swift 5.1+
+- Swift 5.7+
 
 ## Example
 To run the example project, clone the repo, and open `Kuru Example.xcodeproj` from the Example directory first.
@@ -38,7 +38,7 @@ To run the example project, clone the repo, and open `Kuru Example.xcodeproj` fr
 Kuru is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Kuru', '~> 0.0.3'
+pod 'Kuru', '~> 0.1.0'
 ```
 
 
@@ -51,7 +51,7 @@ Once you have your Swift package set up, adding Kuru as a dependency is as easy 
 
 ```
 dependencies: [
-    .package(url: "https://github.com/zalazara/Kuru.git", .upToNextMajor(from: "0.0.3"))
+    .package(url: "https://github.com/zalazara/Kuru.git", .upToNextMajor(from: "0.1.0"))
 ]
 ```
 
