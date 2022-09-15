@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'Kuru is the easy way to manipulating ui data from a server in SwiftUI.'
   s.description      = <<-DESC
-  Kuru is the easy way to manipulating ui data from a server in SwiftUI.
+  Welcome to Kuru - a toolkit for building native, component-driven UIs on iOS. It is designed to enable teams of any size to quickly build, tweak and ship new UI features, in either new or existing apps. It also makes it easy to build backend-driven UIs.
                        DESC
   s.homepage         = 'https://github.com/zalazara/Kuru'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
