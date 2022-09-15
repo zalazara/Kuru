@@ -25,6 +25,15 @@ struct Kuru_ExampleApp: App {
     
     func registerComponents() {
         Kuru.registerComponent(ScreenContainerComponent.self, for: "screenContainer")
+        
+        Kuru.registerComponents([
+            "asyncImageView"    : AsyncImageViewComponent.self,
+            "titleText"         : TitleTextComponent.self,
+            "subtitleText"      : SubtitleTextComponent.self,
+            "circleIconButton"  : CircleIconButton.self,
+            "navigationView"    : NavigationViewComponent.self
+        ])
+        
         Kuru.registerComponent(AsyncImageViewComponent.self, for: "asyncImageView")
         Kuru.registerComponent(TitleTextComponent.self, for: "titleText")
         Kuru.registerComponent(SubtitleTextComponent.self, for: "subtitleText")

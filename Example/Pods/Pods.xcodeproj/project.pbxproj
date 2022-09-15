@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B797A9227E080E18C3D3BD5860518C /* KFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF99E68AAC090B7A552A2ACCD603DC7 /* KFunctions.swift */; };
+		1DE2F949F2D35714D45E47647D9BEADD /* KeyedDecodingContainer+StringAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD79C1E80DE4321C6F075AF1A1AFA64 /* KeyedDecodingContainer+StringAny.swift */; };
+		1E4264A432E1C4D3EFA5B8DC9F66D0A8 /* Kuru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCCAE6056DFACA32547FDF1A4237CAD /* Kuru.swift */; };
+		324B00F7FB88F6463CA5B8451F569ABF /* View+ToAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D0FCB096D3E68419B6ABBC9E8A1D3D /* View+ToAnyView.swift */; };
+		3E5B1CDA0DA066B4B7D616941A1E75F2 /* Pods-Kuru Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB2E65B035F54FC35F011B4EB102AC2 /* Pods-Kuru Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ACB41D418796F7D2AE6F24DFB0A9DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		588C05A509C0064CE4B2838708EE6B6D /* Pods-Kuru ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D43659DB4225ED5321756696997CC6F7 /* Pods-Kuru ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5265A4BEF0C96DF00841107551AF6A /* Pods-Kuru Example-Kuru ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66191E6E700424E2CAC1071541D61D8E /* Pods-Kuru Example-Kuru ExampleUITests-dummy.m */; };
+		660616AA2C021BD612DAC4027A175631 /* Pods-Kuru Example-Kuru ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7A38548D5969BCBC54A2908E073C4C /* Pods-Kuru Example-Kuru ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A084A5A76BFB2E125B398FE9DDCE93 /* Pods-Kuru Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6668F26C4A44D2AFCAE8463F0ADB483D /* Pods-Kuru Example-dummy.m */; };
+		7C3D99D718A26CF295ABFF6477C83D1C /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74825299CA7E62256FAA2C55E2C3230 /* Color+Codable.swift */; };
+		97021B92644AD422AD805C46DCC5C10B /* KComponentDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB16CDE19C26F27FD537554C735F47F /* KComponentDecoder.swift */; };
+		A06DC88FA9883DEDC7343F7F40D375C0 /* Kuru-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9839DA85214CE498AF6939DC59D93ED0 /* Kuru-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC6F7C73F837C3191F40632644C52DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AD2B5A31BC95DFB7A68CA93F7BA97851 /* Pods-Kuru ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B468ED3611E7CD5D02425533CBBC6B /* Pods-Kuru ExampleTests-dummy.m */; };
+		D04D123667C38EA14D058071C7FB49B6 /* String+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720C5CE5040201C0E0653410BA985902 /* String+HexColor.swift */; };
+		D2BD120E0614816A46B0384D0909CFB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA24B285887A8A6764756890C251F43E /* Kuru-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB631CC99C66ECF9E526208065A9F1D /* Kuru-dummy.m */; };
+		DEF16F6E3E25217E1F3B82329F3FECC1 /* KComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55031FD7028FE3F8067CA9DC42F7176 /* KComponentProtocol.swift */; };
+		FF367384DD59FFFEBA2C644814F90092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16678BBF17B60C74A4D3C8189B19F00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE4D120BA52AB6B8C4649ADCADD87E5;
+			remoteInfo = Kuru;
+		};
+		2EFF85C12AD75AAFF432A81E7EAD3EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B7851E85C0408AF8D5AF4A46C209C5;
+			remoteInfo = "Pods-Kuru Example";
+		};
+		DC18ACD778442B0F889824B07BD6E915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE4D120BA52AB6B8C4649ADCADD87E5;
+			remoteInfo = Kuru;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085DB115BA504A099B3177BD542F42F1 /* Pods-Kuru ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kuru ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		08D3DA12293E74DDCB4191489F156D9E /* Pods-Kuru Example-Kuru ExampleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Kuru Example-Kuru ExampleUITests"; path = Pods_Kuru_Example_Kuru_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB631CC99C66ECF9E526208065A9F1D /* Kuru-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kuru-dummy.m"; sourceTree = "<group>"; };
+		1CCCAE6056DFACA32547FDF1A4237CAD /* Kuru.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kuru.swift; path = Sources/Kuru/Kuru.swift; sourceTree = "<group>"; };
+		22889D37A8FAB001C1ACB9E11692A37C /* Pods-Kuru Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kuru Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		241F5267CEACC6772DFD45D302C27EAE /* Pods-Kuru Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kuru Example.modulemap"; sourceTree = "<group>"; };
+		2623B3C9EFB8571A1E7EF4F9107CD5DC /* Pods-Kuru Example-Kuru ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kuru Example-Kuru ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2CD79C1E80DE4321C6F075AF1A1AFA64 /* KeyedDecodingContainer+StringAny.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+StringAny.swift"; sourceTree = "<group>"; };
+		373ECFD9CBEB67F2CB42076A1491B398 /* Pods-Kuru Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Kuru Example"; path = Pods_Kuru_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47508E2D69DFEC558C8EE036B15DF55E /* Kuru */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kuru; path = Kuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAB7804DB5C9636C9DFA6463D03F94A /* Kuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kuru.debug.xcconfig; sourceTree = "<group>"; };
+		6035CABF67E24D3DA44C5AE161B209B2 /* Pods-Kuru Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kuru Example-Info.plist"; sourceTree = "<group>"; };
+		62FF99A1002BC481B5D9465AB64674B5 /* Pods-Kuru Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kuru Example-frameworks.sh"; sourceTree = "<group>"; };
+		66191E6E700424E2CAC1071541D61D8E /* Pods-Kuru Example-Kuru ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kuru Example-Kuru ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		6668F26C4A44D2AFCAE8463F0ADB483D /* Pods-Kuru Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kuru Example-dummy.m"; sourceTree = "<group>"; };
+		671C3C44657ED3152F478FD569591DF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		67D715D0CAF801B3950089E5060F041C /* Pods-Kuru ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuru ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		720C5CE5040201C0E0653410BA985902 /* String+HexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+HexColor.swift"; sourceTree = "<group>"; };
+		722820DC4722650C6CAD9F9C11D349C4 /* Pods-Kuru Example-Kuru ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kuru Example-Kuru ExampleUITests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7425FABAEEBEA963C040F2F7219FF741 /* Kuru-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kuru-prefix.pch"; sourceTree = "<group>"; };
+		7683F037AE0C2130013F66C177C277D7 /* Pods-Kuru Example-Kuru ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kuru Example-Kuru ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78DDCB0F9F91E184E723250B7C8F4F62 /* Pods-Kuru Example-Kuru ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuru Example-Kuru ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7985B7D36A9DE9D30FCD281B62A1242F /* Pods-Kuru ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kuru ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CF99E68AAC090B7A552A2ACCD603DC7 /* KFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KFunctions.swift; sourceTree = "<group>"; };
+		8DB2E65B035F54FC35F011B4EB102AC2 /* Pods-Kuru Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kuru Example-umbrella.h"; sourceTree = "<group>"; };
+		948D7A95CB1A8E3E7D53375AD6F79781 /* Pods-Kuru Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kuru Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		965C2D379ED605221411269DC35CB497 /* Pods-Kuru ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuru ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9839DA85214CE498AF6939DC59D93ED0 /* Kuru-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kuru-umbrella.h"; sourceTree = "<group>"; };
+		99D0FCB096D3E68419B6ABBC9E8A1D3D /* View+ToAnyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+ToAnyView.swift"; sourceTree = "<group>"; };
+		9D7A38548D5969BCBC54A2908E073C4C /* Pods-Kuru Example-Kuru ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kuru Example-Kuru ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC637405199882DB0E694D3A0BECEBE /* Pods-Kuru ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Kuru ExampleTests.modulemap"; sourceTree = "<group>"; };
+		AD749A7C4DEC094C6D1790B92AD7DF4D /* Pods-Kuru Example-Kuru ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuru Example-Kuru ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B74825299CA7E62256FAA2C55E2C3230 /* Color+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		C5E203E5C4B8F01FC63DFBC7662CB1DA /* Kuru-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kuru-Info.plist"; sourceTree = "<group>"; };
+		CB1E95CB6450E5AE79FE11AD5FC4ED62 /* Pods-Kuru Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuru Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CE94C5F96B39585D1C3E63DA65AC8516 /* Pods-Kuru ExampleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Kuru ExampleTests"; path = Pods_Kuru_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB16CDE19C26F27FD537554C735F47F /* KComponentDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KComponentDecoder.swift; sourceTree = "<group>"; };
+		D43659DB4225ED5321756696997CC6F7 /* Pods-Kuru ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kuru ExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		D5B468ED3611E7CD5D02425533CBBC6B /* Pods-Kuru ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kuru ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		DB4C3A85097801C995B36BEFCC1FCAC8 /* Kuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kuru.release.xcconfig; sourceTree = "<group>"; };
+		E245E7EDA30A96DC17CDA203DE351FAF /* Pods-Kuru ExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kuru ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		E60BC9DC529AC268E994808EA12C78FC /* Pods-Kuru Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kuru Example.release.xcconfig"; sourceTree = "<group>"; };
+		E68926CC2AC3C8A1669EE954978C646A /* Kuru.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Kuru.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB4B33BBF243C6978B193C66BF722ED2 /* Pods-Kuru Example-Kuru ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kuru Example-Kuru ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECADBECCDBA089708D0EF7B628712F55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F55031FD7028FE3F8067CA9DC42F7176 /* KComponentProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KComponentProtocol.swift; sourceTree = "<group>"; };
+		F87933AC541BA85B6FA57112B76C4EED /* Pods-Kuru Example-Kuru ExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kuru Example-Kuru ExampleUITests-Info.plist"; sourceTree = "<group>"; };
+		FABC1113F6C26CF22EE32E9F0EE9E00E /* Kuru.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kuru.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B5CAD69D56F2064A6D1A815A1A1645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACB41D418796F7D2AE6F24DFB0A9DA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D5124515B16DF347A18972D915FB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC6F7C73F837C3191F40632644C52DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7505E61B770B3FDC37DD3695C7183A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF367384DD59FFFEBA2C644814F90092 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AFDF74CC00394B083BB41EAE820C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BD120E0614816A46B0384D0909CFB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D9586D95F6C283F3414FB389F00D4E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABC1113F6C26CF22EE32E9F0EE9E00E /* Kuru.modulemap */,
+				1AB631CC99C66ECF9E526208065A9F1D /* Kuru-dummy.m */,
+				C5E203E5C4B8F01FC63DFBC7662CB1DA /* Kuru-Info.plist */,
+				7425FABAEEBEA963C040F2F7219FF741 /* Kuru-prefix.pch */,
+				9839DA85214CE498AF6939DC59D93ED0 /* Kuru-umbrella.h */,
+				5EAB7804DB5C9636C9DFA6463D03F94A /* Kuru.debug.xcconfig */,
+				DB4C3A85097801C995B36BEFCC1FCAC8 /* Kuru.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Kuru";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7756C1E8C93A0FF7EFE682BC8EA45F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47508E2D69DFEC558C8EE036B15DF55E /* Kuru */,
+				373ECFD9CBEB67F2CB42076A1491B398 /* Pods-Kuru Example */,
+				08D3DA12293E74DDCB4191489F156D9E /* Pods-Kuru Example-Kuru ExampleUITests */,
+				CE94C5F96B39585D1C3E63DA65AC8516 /* Pods-Kuru ExampleTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89CA30A3FD4B31C461E31EC6388A3614 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B176BF55E3FDC0CE58372FF1667C2DD9 /* Kuru */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		99E013572E433F6DAF758F43A2F0CFE2 /* Pods-Kuru Example */ = {
+			isa = PBXGroup;
+			children = (
+				241F5267CEACC6772DFD45D302C27EAE /* Pods-Kuru Example.modulemap */,
+				22889D37A8FAB001C1ACB9E11692A37C /* Pods-Kuru Example-acknowledgements.markdown */,
+				948D7A95CB1A8E3E7D53375AD6F79781 /* Pods-Kuru Example-acknowledgements.plist */,
+				6668F26C4A44D2AFCAE8463F0ADB483D /* Pods-Kuru Example-dummy.m */,
+				62FF99A1002BC481B5D9465AB64674B5 /* Pods-Kuru Example-frameworks.sh */,
+				6035CABF67E24D3DA44C5AE161B209B2 /* Pods-Kuru Example-Info.plist */,
+				8DB2E65B035F54FC35F011B4EB102AC2 /* Pods-Kuru Example-umbrella.h */,
+				CB1E95CB6450E5AE79FE11AD5FC4ED62 /* Pods-Kuru Example.debug.xcconfig */,
+				E60BC9DC529AC268E994808EA12C78FC /* Pods-Kuru Example.release.xcconfig */,
+			);
+			name = "Pods-Kuru Example";
+			path = "Target Support Files/Pods-Kuru Example";
+			sourceTree = "<group>";
+		};
+		B176BF55E3FDC0CE58372FF1667C2DD9 /* Kuru */ = {
+			isa = PBXGroup;
+			children = (
+				1CCCAE6056DFACA32547FDF1A4237CAD /* Kuru.swift */,
+				EA07969A2DCCC7898929B6127F1845A3 /* decoder */,
+				E56C8A69B99492A76748D9E5A67180A1 /* entities */,
+				C3F2EF46B89836C06ECAAA70E942DB57 /* extensions */,
+				F8BC6393324DEF546BBCDB5EE5A78809 /* Pod */,
+				FC8279C9877030F01E59C64D30C31F6B /* protocols */,
+				3D9586D95F6C283F3414FB389F00D4E3 /* Support Files */,
+			);
+			name = Kuru;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C3F2EF46B89836C06ECAAA70E942DB57 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B74825299CA7E62256FAA2C55E2C3230 /* Color+Codable.swift */,
+				2CD79C1E80DE4321C6F075AF1A1AFA64 /* KeyedDecodingContainer+StringAny.swift */,
+				720C5CE5040201C0E0653410BA985902 /* String+HexColor.swift */,
+				99D0FCB096D3E68419B6ABBC9E8A1D3D /* View+ToAnyView.swift */,
+			);
+			name = extensions;
+			path = Sources/Kuru/extensions;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				89CA30A3FD4B31C461E31EC6388A3614 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7756C1E8C93A0FF7EFE682BC8EA45F6C /* Products */,
+				F11550E6829771556206CE37263CFB4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8A815E7D0FFED5F13AB80C39D5DEAD /* Pods-Kuru Example-Kuru ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				722820DC4722650C6CAD9F9C11D349C4 /* Pods-Kuru Example-Kuru ExampleUITests.modulemap */,
+				7683F037AE0C2130013F66C177C277D7 /* Pods-Kuru Example-Kuru ExampleUITests-acknowledgements.markdown */,
+				EB4B33BBF243C6978B193C66BF722ED2 /* Pods-Kuru Example-Kuru ExampleUITests-acknowledgements.plist */,
+				66191E6E700424E2CAC1071541D61D8E /* Pods-Kuru Example-Kuru ExampleUITests-dummy.m */,
+				2623B3C9EFB8571A1E7EF4F9107CD5DC /* Pods-Kuru Example-Kuru ExampleUITests-frameworks.sh */,
+				F87933AC541BA85B6FA57112B76C4EED /* Pods-Kuru Example-Kuru ExampleUITests-Info.plist */,
+				9D7A38548D5969BCBC54A2908E073C4C /* Pods-Kuru Example-Kuru ExampleUITests-umbrella.h */,
+				AD749A7C4DEC094C6D1790B92AD7DF4D /* Pods-Kuru Example-Kuru ExampleUITests.debug.xcconfig */,
+				78DDCB0F9F91E184E723250B7C8F4F62 /* Pods-Kuru Example-Kuru ExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-Kuru Example-Kuru ExampleUITests";
+			path = "Target Support Files/Pods-Kuru Example-Kuru ExampleUITests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56C8A69B99492A76748D9E5A67180A1 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				7CF99E68AAC090B7A552A2ACCD603DC7 /* KFunctions.swift */,
+			);
+			name = entities;
+			path = Sources/Kuru/entities;
+			sourceTree = "<group>";
+		};
+		E66984877A813D14070442A645991A96 /* Pods-Kuru ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC637405199882DB0E694D3A0BECEBE /* Pods-Kuru ExampleTests.modulemap */,
+				7985B7D36A9DE9D30FCD281B62A1242F /* Pods-Kuru ExampleTests-acknowledgements.markdown */,
+				085DB115BA504A099B3177BD542F42F1 /* Pods-Kuru ExampleTests-acknowledgements.plist */,
+				D5B468ED3611E7CD5D02425533CBBC6B /* Pods-Kuru ExampleTests-dummy.m */,
+				E245E7EDA30A96DC17CDA203DE351FAF /* Pods-Kuru ExampleTests-Info.plist */,
+				D43659DB4225ED5321756696997CC6F7 /* Pods-Kuru ExampleTests-umbrella.h */,
+				67D715D0CAF801B3950089E5060F041C /* Pods-Kuru ExampleTests.debug.xcconfig */,
+				965C2D379ED605221411269DC35CB497 /* Pods-Kuru ExampleTests.release.xcconfig */,
+			);
+			name = "Pods-Kuru ExampleTests";
+			path = "Target Support Files/Pods-Kuru ExampleTests";
+			sourceTree = "<group>";
+		};
+		EA07969A2DCCC7898929B6127F1845A3 /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				CFB16CDE19C26F27FD537554C735F47F /* KComponentDecoder.swift */,
+			);
+			name = decoder;
+			path = Sources/Kuru/decoder;
+			sourceTree = "<group>";
+		};
+		F11550E6829771556206CE37263CFB4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99E013572E433F6DAF758F43A2F0CFE2 /* Pods-Kuru Example */,
+				CF8A815E7D0FFED5F13AB80C39D5DEAD /* Pods-Kuru Example-Kuru ExampleUITests */,
+				E66984877A813D14070442A645991A96 /* Pods-Kuru ExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8BC6393324DEF546BBCDB5EE5A78809 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E68926CC2AC3C8A1669EE954978C646A /* Kuru.podspec */,
+				ECADBECCDBA089708D0EF7B628712F55 /* LICENSE */,
+				671C3C44657ED3152F478FD569591DF1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FC8279C9877030F01E59C64D30C31F6B /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F55031FD7028FE3F8067CA9DC42F7176 /* KComponentProtocol.swift */,
+			);
+			name = protocols;
+			path = Sources/Kuru/protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		655D3585510F0F6F88B077A8486EB631 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5B1CDA0DA066B4B7D616941A1E75F2 /* Pods-Kuru Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F53ED76E40DC1F9C09C6C1F34AF7ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06DC88FA9883DEDC7343F7F40D375C0 /* Kuru-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6844A38CBD5ECDF9C27E1F8C105125F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660616AA2C021BD612DAC4027A175631 /* Pods-Kuru Example-Kuru ExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB36CA51306CB015CDA5EFE5B88EDAE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588C05A509C0064CE4B2838708EE6B6D /* Pods-Kuru ExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		128CCC095031D90641031F37A049AD74 /* Pods-Kuru Example-Kuru ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCC0488A40BD586594F133897B7E390 /* Build configuration list for PBXNativeTarget "Pods-Kuru Example-Kuru ExampleUITests" */;
+			buildPhases = (
+				E6844A38CBD5ECDF9C27E1F8C105125F /* Headers */,
+				91FCA41563F59161EDEFA621C48FB0EF /* Sources */,
+				40D5124515B16DF347A18972D915FB43 /* Frameworks */,
+				20515FC6A0710F695F478CF75FF4B608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3654B41CFDC74118A0EA9E0070EE520 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kuru Example-Kuru ExampleUITests";
+			productName = Pods_Kuru_Example_Kuru_ExampleUITests;
+			productReference = 08D3DA12293E74DDCB4191489F156D9E /* Pods-Kuru Example-Kuru ExampleUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		34B7851E85C0408AF8D5AF4A46C209C5 /* Pods-Kuru Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E014BA22180E3C7DBBA9882C05EFF18A /* Build configuration list for PBXNativeTarget "Pods-Kuru Example" */;
+			buildPhases = (
+				655D3585510F0F6F88B077A8486EB631 /* Headers */,
+				48483CCAB853D12C3811559CD8A2B8BB /* Sources */,
+				B8AFDF74CC00394B083BB41EAE820C12 /* Frameworks */,
+				684201D139A21C678478A1EAAE64BADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31DA5A4A9154F181E69DDC0514CA598 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kuru Example";
+			productName = Pods_Kuru_Example;
+			productReference = 373ECFD9CBEB67F2CB42076A1491B398 /* Pods-Kuru Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CE4D120BA52AB6B8C4649ADCADD87E5 /* Kuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20195F104262D046D8BFE07404AA877 /* Build configuration list for PBXNativeTarget "Kuru" */;
+			buildPhases = (
+				B5F53ED76E40DC1F9C09C6C1F34AF7ED /* Headers */,
+				59B5674EFCC4D320D3BBF993DB70EC8D /* Sources */,
+				22B5CAD69D56F2064A6D1A815A1A1645 /* Frameworks */,
+				CC3E59F348F028D5999BA2C06CDE938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kuru;
+			productName = Kuru;
+			productReference = 47508E2D69DFEC558C8EE036B15DF55E /* Kuru */;
+			productType = "com.apple.product-type.framework";
+		};
+		A15CB7AE7B6DD48031ECC7CD8F192F14 /* Pods-Kuru ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495EE9DA22243B4779D3803DC8963786 /* Build configuration list for PBXNativeTarget "Pods-Kuru ExampleTests" */;
+			buildPhases = (
+				EB36CA51306CB015CDA5EFE5B88EDAE5 /* Headers */,
+				B8101C885D77BA02E6CF4ECFB2D98E15 /* Sources */,
+				7505E61B770B3FDC37DD3695C7183A27 /* Frameworks */,
+				D30808B49A329594763C0EB7F6181950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32F54C2ED8CF2F980D61E696A8D512A /* PBXTargetDependency */,
+			);
+			name = "Pods-Kuru ExampleTests";
+			productName = Pods_Kuru_ExampleTests;
+			productReference = CE94C5F96B39585D1C3E63DA65AC8516 /* Pods-Kuru ExampleTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7756C1E8C93A0FF7EFE682BC8EA45F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE4D120BA52AB6B8C4649ADCADD87E5 /* Kuru */,
+				34B7851E85C0408AF8D5AF4A46C209C5 /* Pods-Kuru Example */,
+				128CCC095031D90641031F37A049AD74 /* Pods-Kuru Example-Kuru ExampleUITests */,
+				A15CB7AE7B6DD48031ECC7CD8F192F14 /* Pods-Kuru ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20515FC6A0710F695F478CF75FF4B608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684201D139A21C678478A1EAAE64BADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3E59F348F028D5999BA2C06CDE938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30808B49A329594763C0EB7F6181950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48483CCAB853D12C3811559CD8A2B8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A084A5A76BFB2E125B398FE9DDCE93 /* Pods-Kuru Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B5674EFCC4D320D3BBF993DB70EC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3D99D718A26CF295ABFF6477C83D1C /* Color+Codable.swift in Sources */,
+				97021B92644AD422AD805C46DCC5C10B /* KComponentDecoder.swift in Sources */,
+				DEF16F6E3E25217E1F3B82329F3FECC1 /* KComponentProtocol.swift in Sources */,
+				1DE2F949F2D35714D45E47647D9BEADD /* KeyedDecodingContainer+StringAny.swift in Sources */,
+				09B797A9227E080E18C3D3BD5860518C /* KFunctions.swift in Sources */,
+				1E4264A432E1C4D3EFA5B8DC9F66D0A8 /* Kuru.swift in Sources */,
+				DA24B285887A8A6764756890C251F43E /* Kuru-dummy.m in Sources */,
+				D04D123667C38EA14D058071C7FB49B6 /* String+HexColor.swift in Sources */,
+				324B00F7FB88F6463CA5B8451F569ABF /* View+ToAnyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FCA41563F59161EDEFA621C48FB0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5265A4BEF0C96DF00841107551AF6A /* Pods-Kuru Example-Kuru ExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8101C885D77BA02E6CF4ECFB2D98E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2B5A31BC95DFB7A68CA93F7BA97851 /* Pods-Kuru ExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31DA5A4A9154F181E69DDC0514CA598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kuru;
+			target = 8CE4D120BA52AB6B8C4649ADCADD87E5 /* Kuru */;
+			targetProxy = DC18ACD778442B0F889824B07BD6E915 /* PBXContainerItemProxy */;
+		};
+		D32F54C2ED8CF2F980D61E696A8D512A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Kuru Example";
+			target = 34B7851E85C0408AF8D5AF4A46C209C5 /* Pods-Kuru Example */;
+			targetProxy = 2EFF85C12AD75AAFF432A81E7EAD3EB4 /* PBXContainerItemProxy */;
+		};
+		F3654B41CFDC74118A0EA9E0070EE520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kuru;
+			target = 8CE4D120BA52AB6B8C4649ADCADD87E5 /* Kuru */;
+			targetProxy = 16678BBF17B60C74A4D3C8189B19F00C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3261BB627F1A0356B36598D537D61F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60BC9DC529AC268E994808EA12C78FC /* Pods-Kuru Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kuru Example/Pods-Kuru Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kuru Example/Pods-Kuru Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86466BA457440D7FA18D374C78D73725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EAB7804DB5C9636C9DFA6463D03F94A /* Kuru.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kuru/Kuru-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kuru/Kuru-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kuru/Kuru.modulemap";
+				PRODUCT_MODULE_NAME = Kuru;
+				PRODUCT_NAME = Kuru;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8838D24DEA1D0E54D5F6C2A061DF6DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1E95CB6450E5AE79FE11AD5FC4ED62 /* Pods-Kuru Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kuru Example/Pods-Kuru Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kuru Example/Pods-Kuru Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C99EC3001CFE7EB22828DA84893B4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D715D0CAF801B3950089E5060F041C /* Pods-Kuru ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kuru ExampleTests/Pods-Kuru ExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kuru ExampleTests/Pods-Kuru ExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A813F032A4ED36FC1F0B0AF06A9CDF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DDCB0F9F91E184E723250B7C8F4F62 /* Pods-Kuru Example-Kuru ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kuru Example-Kuru ExampleUITests/Pods-Kuru Example-Kuru ExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kuru Example-Kuru ExampleUITests/Pods-Kuru Example-Kuru ExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC09508BF477A2A8CC41E235F89F8542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD749A7C4DEC094C6D1790B92AD7DF4D /* Pods-Kuru Example-Kuru ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kuru Example-Kuru ExampleUITests/Pods-Kuru Example-Kuru ExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kuru Example-Kuru ExampleUITests/Pods-Kuru Example-Kuru ExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB2012CCCBB129894871A9AB309079B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965C2D379ED605221411269DC35CB497 /* Pods-Kuru ExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Kuru ExampleTests/Pods-Kuru ExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kuru ExampleTests/Pods-Kuru ExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFB96F785F5AA65D4E113FC351832544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4C3A85097801C995B36BEFCC1FCAC8 /* Kuru.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kuru/Kuru-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kuru/Kuru-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kuru/Kuru.modulemap";
+				PRODUCT_MODULE_NAME = Kuru;
+				PRODUCT_NAME = Kuru;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.7;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495EE9DA22243B4779D3803DC8963786 /* Build configuration list for PBXNativeTarget "Pods-Kuru ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C99EC3001CFE7EB22828DA84893B4CF /* Debug */,
+				DB2012CCCBB129894871A9AB309079B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20195F104262D046D8BFE07404AA877 /* Build configuration list for PBXNativeTarget "Kuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86466BA457440D7FA18D374C78D73725 /* Debug */,
+				EFB96F785F5AA65D4E113FC351832544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCC0488A40BD586594F133897B7E390 /* Build configuration list for PBXNativeTarget "Pods-Kuru Example-Kuru ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC09508BF477A2A8CC41E235F89F8542 /* Debug */,
+				A813F032A4ED36FC1F0B0AF06A9CDF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E014BA22180E3C7DBBA9882C05EFF18A /* Build configuration list for PBXNativeTarget "Pods-Kuru Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8838D24DEA1D0E54D5F6C2A061DF6DEA /* Debug */,
+				3261BB627F1A0356B36598D537D61F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

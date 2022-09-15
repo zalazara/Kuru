@@ -1,0 +1,6 @@
+framework module Pods_Kuru_Example_Kuru_ExampleUITests {
+  umbrella header "Pods-Kuru Example-Kuru ExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

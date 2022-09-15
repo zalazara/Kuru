@@ -5,11 +5,11 @@ public class Kuru {
     
     static var registerFunctions: [KFunction]  = []
     
-    public static func registerComponent<A: KComponentProtocol>(_ type: A.Type, for typeName: String) {
-        KComponentDecoder.register(A.self, for: typeName)
+    public static func registerComponent(_ type: any KComponentProtocol.Type, for typeName: String) {
+        KComponentDecoder.register(type.self, for: typeName)
     }
     
-    public static func registerComponents<A: KComponentProtocol>(_ components: [String : A.Type ]) {
+    public static func registerComponents(_ components: [String : any KComponentProtocol.Type ]) {
         components.forEach({
             KComponentDecoder.register($0.value.self, for: $0.key)
         })

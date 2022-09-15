@@ -23,5 +23,6 @@ let package = Package(
         .testTarget(
             name: "KuruTests",
             dependencies: ["Kuru"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
